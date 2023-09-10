@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <style>
+        h1{
+            color: red;
+        }
+        div/*#red*/{ /*All div change into red color*/
+            background-color: antiquewhite;
+        }
+        #first,h3{ /*Grouping Selectors*/
+            color: white;
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+        }
+        /* *{ 
+            margin: 0;
+            padding: 0;
+        }*/
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is my CSS Selector Page</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique minima aspernatur illum repellendus deserunt ratione perspiciatis quidem eius eaque alias ducimus sit ea fugit, ipsam laborum vero expedita in quam blanditiis ipsa. Facilis, rerum?</p>
+        <div id="first">Background is red</div>
+        <span class="blue">First tag</span><br>
+        <span class="blue">Second tag</span><br>
+        <span class="blue">Third tag</span><br>
+        <h3>I am H3</h3>
+    </div>
+</body>
+</html>
